@@ -33,8 +33,8 @@ class RangeList {
       let leftIndex = this._findNumberIndex(range[0]);
       let rightIndex = this._findNumberIndex(range[1]);
 
-      // there will alawys be one more range appended to rangelists
-      // remmeber to change the range value in dofferent cases
+      // there will alawys be one more range appended to rangelist
+      // remember to change the range value in different cases
       const finalRange = [];
 
       if (!Number.isInteger(leftIndex)) {
@@ -118,7 +118,8 @@ class RangeList {
     });
   }
   /**
-   * a simple 2-split find implement, return index when match the range, otherwise return a float
+   * a simple 2-split find implement, return index when match the range,
+   * otherwise return a float index to indicate where the number is
    * @param {} cb 
    * @param {*} startIndex 
    * @param {*} endIndex 
